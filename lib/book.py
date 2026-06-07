@@ -16,8 +16,12 @@ class Book:
         else:
             self.page_count = value
 
+    def turn_page(self):
+        print("Flipping the page...wow, you read fast!")
+
 
 book1 = Book("And Then There Were None", 272)
 print(book1.page_count)
+book1.turn_page()
     
         
